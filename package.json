@@ -8,12 +8,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "node --watch --no-warnings server.js",
-    "dev-fast": "node --watch --no-warnings server-fastify.js"
+    "dev-fast": "node --watch --no-warnings server-fastify.js",
+    "bd": "node --watch --no-warnings connection.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^4.26.2"
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2",
+    "mysql": "^2.18.1"
   }
 }
