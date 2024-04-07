@@ -1,9 +1,11 @@
 ### Estudando Node.js e Fastify
 
-##### O que você encontrará:
+##### O que você encontrará
 
 - Exemplos de rotas em Node.js (puro) e Fastify:
   - Requisições GET
+  - Conexão com banco de dados
+  - Querys
 
 ---
 
@@ -22,7 +24,7 @@
 - Fastify v4.26.2
 - NPM v10.2.4
 
-###### Links úteis:
+###### Links úteis
 
 - Node.js: https://nodejs.org/en
 - Fastify: https://fastify.dev/
