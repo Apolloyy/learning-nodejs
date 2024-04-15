@@ -4,7 +4,7 @@
 
 - Exemplos de estudos feitos em Node.js
   - Conexão com banco de dados
-  - Querys diretamente no banco (com node)
+  - Querys diretamente no banco (com Node.js)
   - Requisição get com Express
   - Pequenos testes com Fastify
 
