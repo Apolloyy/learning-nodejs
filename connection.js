@@ -1,5 +1,5 @@
-import dotenv from "dotenv";
-import mysql from "mysql";
+const dotenv = require("dotenv");
+const mysql = require("mysql");
 dotenv.config();
 
 //const of connection
@@ -87,3 +87,5 @@ con.query(
     console.log(res);
   }
 );
+
+module.exports = { con };

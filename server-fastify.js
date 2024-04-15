@@ -1,4 +1,4 @@
-import { fastify } from "fastify";
+const fastify = require("fastify");
 
 const server = fastify();
 server.listen({
