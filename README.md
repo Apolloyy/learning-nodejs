@@ -1,22 +1,24 @@
-### Estudando Node.js
+#### Estudando Node.js
 
 ##### Já feito
 
 - Exemplos de estudos feitos em Node.js
   - Conexão com banco de dados
   - Querys diretamente no banco (com Node.js)
-  - Requisição get com Express
+  - Requisição GET, POST, DELETE, UPDATE e PATCH com Express
+    - Rotas básicas e avançadas:
+      - [x] Sem query params;
+      - [x] Com query params;
+      - [x] Em banco de dados.
   - Pequenos testes com Fastify
 
 ---
 
-###### O que você encontrará em breve
+###### Em breve
 
-- Rotas básicas e avançadas
-- Exemplos de requisições GET, POST, DELETE, UPDATE
-  - [x] Sem query params;
-  - [x] Com query params;
-  - [x] Em banco de dados.
+- APIs Nativas do Node.js
+- Melhorar a estruturação dos arquivos
+- E+
 
 ###### Stacks utilizadas
 
