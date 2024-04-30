@@ -7,9 +7,9 @@
   - Querys diretamente no banco (com Node.js)
   - Requisição GET, POST, DELETE, UPDATE e PATCH com Express
     - Rotas básicas e avançadas:
-      - [x] Sem query params;
-      - [x] Com query params;
-      - [x] Em banco de dados.
+    - [x] Sem query params;
+    - [x] Com query params;
+    - [x] Em banco de dados.
   - Pequenos testes com Fastify
 
 ---
@@ -18,6 +18,8 @@
 
 - APIs Nativas do Node.js
 - Melhorar a estruturação dos arquivos
+- Refinar apis, visando integridade
+- Arrumar api de Delete
 - E+
 
 ###### Stacks utilizadas
@@ -32,3 +34,4 @@
 - Node.js: https://nodejs.org/en
 - Fastify: https://fastify.dev/
 - Express: https://expressjs.com/pt-br/
+- awesome-node.js: https://github.com/sindresorhus/awesome-nodejs
