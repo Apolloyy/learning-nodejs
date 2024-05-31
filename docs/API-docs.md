@@ -34,9 +34,7 @@ Request (application/json)
 | -------------------------------------- |
 | <font color="#49aa29"><b>201<b></font> |
 
-Request (application/json)
-
-```json
+```
 HTTP/1.1 201 Created
 X-Powered-By: Express
 Date: Fri, 31 May 2024 02:35:25 GMT
@@ -54,9 +52,7 @@ Content-Length: 0
 | -------------------------------------- |
 | <font color="#49aa29"><b>204<b></font> |
 
-Request (application/json)
-
-```json
+```
 HTTP/1.1 204 No Content
 X-Powered-By: Express
 Date: Fri, 31 May 2024 02:37:14 GMT
@@ -72,9 +68,7 @@ Connection: close
 | --- |
 | <font color="#49aa29"><b>204<b></font> |
 
-Request (application/json)
-
-```json
+```
 HTTP/1.1 204 No Content
 X-Powered-By: Express
 Date: Fri, 31 May 2024 02:39:21 GMT
@@ -90,9 +84,8 @@ Connection: close
 | --- |
 | <font color="#49aa29"><b>204<b></font> |
 
-Request (application/json)
 
-```json
+```
 HTTP/1.1 204 No Content
 X-Powered-By: Express
 Date: Fri, 31 May 2024 02:45:03 GMT
