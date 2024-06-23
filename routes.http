@@ -3,4 +3,4 @@
 # PATCH http://localhost:3000/update/2/Lucas
 # PATCH http://localhost:3000/update/2/22224444
 # PUT http://localhost:3000/update/2/teste/88888888
-# DELETE http://localhost:3000/delete:11
+ DELETE http://localhost:3000/delete/19

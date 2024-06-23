@@ -19,5 +19,8 @@
     "express": "^4.19.2",
     "fastify": "^4.26.2",
     "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "cypress": "^13.12.0"
   }
 }

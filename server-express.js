@@ -50,9 +50,9 @@ app.delete("/delete/:id", (req, res) => {
   const id = req.params.id;
   res.send("Conectado!");
   const sqlDelete = `DELETE FROM pessoa WHERE id_pessoa = ?`;
-  con.query(sqlDelete, [id], async (err, res) => {
+  con.query(sqlDelete, [id], async (err, result) => {
     if (!err) {
-      console.log("Deletado" + JSON.stringify(res));
+      console.log("Deletado" + JSON.stringify(result));
     }
     console.log(err || "");
   });
