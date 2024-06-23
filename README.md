@@ -10,24 +10,27 @@
     - [x] Sem query params;
     - [x] Com query params;
     - [x] Em banco de dados.
-  - Pequenos testes com Fastify
+  - Pequena utilização do Fastify
+  - Testes utilizando Cypress
 
 ---
 
 ###### Em breve
 
-- APIs Nativas do Node.js
+- Utilizar mais APIs Nativas do Node.js
 - Melhorar a estruturação dos arquivos
-- Refinar apis, visando integridade
+- Refinar apis visando integridade
 - Arrumar api de Delete
-- E+
+- Melhorar testes
+- Implementar um ORM
 
 ###### Stacks utilizadas
 
 - Node.js v21.6.0
 - Fastify v4.26.2
 - NPM v10.2.4
-- Express 4.19.2
+- Express v4.19.2
+- Cypress v13.12.0
 
 ###### Links úteis
 
