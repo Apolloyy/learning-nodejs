@@ -38,3 +38,4 @@
 - Fastify: https://fastify.dev/
 - Express: https://expressjs.com/pt-br/
 - awesome-node.js: https://github.com/sindresorhus/awesome-nodejs
+- Cypress: https://www.cypress.io/
