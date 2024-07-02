@@ -1,6 +1,6 @@
-# GET http://localhost:3000/
+ GET http://localhost:3000/
 # POST http://localhost:3000/register
 # PATCH http://localhost:3000/update/2/Lucas
 # PATCH http://localhost:3000/update/2/22224444
-# PUT http://localhost:3000/update/2/teste/88888888
- DELETE http://localhost:3000/delete/19
+# PUT http://localhost:3000/update/2/testeAA/88888888
+# DELETE http://localhost:3000/delete/19
