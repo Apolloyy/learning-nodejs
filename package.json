@@ -9,13 +9,12 @@
     "dev": "node --watch --no-warnings server.js",
     "dev-fast": "node --watch --no-warnings server-fastify.js",
     "bd": "node --watch --no-warnings connection.js",
-    "api": "node --watch --no-warnings server-express.js"
+    "api": "node --watch --no-warnings --env-file .env server-express.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "fastify": "^4.26.2",
     "mysql": "^2.18.1"
