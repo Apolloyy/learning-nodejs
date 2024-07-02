@@ -7,7 +7,7 @@ describe("testando api", () => {
         "Content-type": "application/json",
       },
     }).then((response) => {
-      cy.log(response.body);
+      expect(response.status).to.eq(204);
     });
   });
 });

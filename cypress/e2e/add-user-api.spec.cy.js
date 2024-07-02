@@ -13,7 +13,7 @@ describe("testando api", () => {
       },
       body: user,
     }).then((response) => {
-      cy.log(response.body);
+      expect(response.status).to.eq(201);
     });
   });
 });
