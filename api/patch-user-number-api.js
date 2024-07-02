@@ -3,8 +3,7 @@ const app = express();
 const mysql = require("mysql");
 const port = 3000;
 
-const dotenv = require("dotenv");
-dotenv.config();
+//ao testar, utilizar node --watch --env-file .env "api/name.js"
 
 app.patch("/update/:id/:nr", (req, res) => {
   const con = mysql.createConnection({

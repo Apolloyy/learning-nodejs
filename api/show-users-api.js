@@ -3,8 +3,7 @@ const app = express();
 const mysql = require("mysql");
 const port = 3000;
 
-const dotenv = require("dotenv");
-dotenv.config();
+//ao testar, utilizar node --watch --env-file .env "api/name.js"
 
 app.get("/", (req, res) => {
   const con = mysql.createConnection({
@@ -16,7 +15,7 @@ app.get("/", (req, res) => {
   const sql = "SELECT * FROM pessoa";
   con.query(sql, async (err, result) => {
     if (!err) {
-      res.send(result);
+      res.status(200).send();
     }
     console.log(err || "");
   });

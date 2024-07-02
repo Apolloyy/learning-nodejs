@@ -3,8 +3,8 @@ const app = express();
 const mysql = require("mysql");
 const port = 3000;
 
-const dotenv = require("dotenv");
-dotenv.config();
+//ao testar, utilizar node --watch --env-file .env "api/name.js"
+
 app.post("/register", (req, res) => {
   const con = mysql.createConnection({
     host: process.env.DB_HOST, //in dotenv
